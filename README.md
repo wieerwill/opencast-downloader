@@ -1,5 +1,10 @@
 # OpenCast Downloader
 
+## Quick and easy note
+Some universitys are using this OpenCast Player for their videos but have them password protected. As this python programm can't handle redirection links there is a easy workaround without any further tools:
+Open the video in the common OpenCast-Player in Firefox-Browser. Press F12 for developer tools and open the "network"-tab. Reload the page and scroll up (sorting for "media"-type makes it even easier). There is a .mp4 file that can be opened in a new tab via right-click on it. As Firefox features mp4-video-download just right click the video in the new opened tab and you can save it to whereever you want.
+
+##
 If your university uses OpenCast for lecture videos and you're looking for a simple-to-use downloader so you can save these lecture videos to your mobile devices and use them on the go, this tool is for you!
 
 ## Prerequisites
