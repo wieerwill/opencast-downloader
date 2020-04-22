@@ -43,11 +43,7 @@ except ModuleNotFoundError:
     # pip loads the module when installing it. I will need to fix the code
     # should this default behaviour ever change.
 
-<<<<<<< HEAD
 version = '1.4'
-=======
-version = '1.3'
->>>>>>> ec1f6a9... [v1.3] fixed bug accidentally introduced in v1.1
 
 # constructing the argument parser (and the help menu)
 parser = argparse.ArgumentParser(
@@ -428,8 +424,4 @@ for i in rg:
     if dl_presenter:
         download(i,True,dl_presenter,dl_presentation,rs)
     if dl_presentation:
-<<<<<<< HEAD
         download(i,False,dl_presenter,dl_presentation,rs)
-=======
-        download(i,False,dl_presenter,dl_presentation,rs)
->>>>>>> ec1f6a9... [v1.3] fixed bug accidentally introduced in v1.1
